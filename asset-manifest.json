@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PurvaAtmosphere/static/css/main.ede78222.css",
+    "main.js": "/PurvaAtmosphere/static/js/main.97ce8b8c.js",
+    "static/media/gal-7.jpeg": "/PurvaAtmosphere/static/media/gal-7.2877d927d93d8f3a6c02.jpeg",
+    "static/media/gal-6.jpeg": "/PurvaAtmosphere/static/media/gal-6.2dc112ff983c56c08004.jpeg",
+    "static/media/gal-5.jpeg": "/PurvaAtmosphere/static/media/gal-5.090f334a75f522726705.jpeg",
+    "static/media/gal-3.jpeg": "/PurvaAtmosphere/static/media/gal-3.d8c5c535664a68aa1eff.jpeg",
+    "static/media/gal-2.jpeg": "/PurvaAtmosphere/static/media/gal-2.d1783128a2aea98c08a6.jpeg",
+    "static/media/2bhk.webp": "/PurvaAtmosphere/static/media/2bhk.7330b635d5dd1a173699.webp",
+    "static/media/gal-1.jpeg": "/PurvaAtmosphere/static/media/gal-1.dbe0ecba2f0c9e4c67bb.jpeg",
+    "static/media/Purvankara1.svg": "/PurvaAtmosphere/static/media/Purvankara1.dd7ca98e9b9138b9f1d5b7170d67aa41.svg",
+    "index.html": "/PurvaAtmosphere/index.html",
+    "main.ede78222.css.map": "/PurvaAtmosphere/static/css/main.ede78222.css.map",
+    "main.97ce8b8c.js.map": "/PurvaAtmosphere/static/js/main.97ce8b8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ede78222.css",
+    "static/js/main.97ce8b8c.js"
+  ]
+}
