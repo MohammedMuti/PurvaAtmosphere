@@ -1,0 +1,59 @@
+@import "../variables/vaiables.scss";
+
+.pop-container {
+  width: 43rem;
+  position: fixed;
+  background-color: #7fb3d5;
+  border-radius: 6px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  z-index: 20;
+  padding: 1rem 3rem;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+  .pop-main {
+    .pop-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 4rem;
+      h2 {
+        color: #ebf5fb;
+      }
+      svg {
+        font-size: 3rem;
+        cursor: pointer;
+      }
+    }
+    .pop-body {
+      form {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        color: #1a5276;
+        .btn {
+          background-color: #ebf5fb;
+          border: none;
+          color: #1a5276;
+          font-weight: 600;
+        }
+        input {
+          margin-bottom: 2rem;
+          outline: none;
+          padding: 1rem;
+        }
+        textarea {
+          margin-bottom: 2rem;
+          outline: none;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+.pop-container.active {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}

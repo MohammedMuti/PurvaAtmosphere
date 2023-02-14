@@ -1,0 +1,23 @@
+@import "../variables/vaiables.scss";
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  color: #1a5276;
+  .btn {
+    background-color: #3498db;
+    border: none;
+    color: white;
+  }
+  input {
+    margin-bottom: 2rem;
+    outline: none;
+    padding: 1rem;
+  }
+  textarea {
+    margin-bottom: 2rem;
+    outline: none;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,334 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  25% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  25% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.home-seperator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .home-seperator .home,
+  .home-seperator .navbar {
+    width: 70%;
+  }
+  .home-seperator .side-contact {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-seperator .home,
+  .home-seperator .navbar {
+    width: 100%;
+  }
+  .home-seperator .side-contact {
+    width: 0%;
+    display: none;
+  }
+}
+
+.home,
+.navbar {
+  width: 75%;
+}
+
+.side-contact {
+  width: 25%;
+}
+
+.home .slide {
+  width: 100%;
+  min-height: 60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-size: cover;
+  height: 80vh;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/gal-5.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: animate 30s ease-in-out infinite alternate-reverse forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-image: url("../../images/gal-2.jpeg");
+    opacity: 0.9;
+  }
+  20% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-3.jpeg");
+  }
+  40% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-5.jpeg");
+  }
+  60% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-6.jpeg");
+  }
+  80% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-7.jpeg");
+  }
+  100% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-2.jpeg");
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("../../images/gal-2.jpeg");
+    opacity: 0.9;
+  }
+  20% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-3.jpeg");
+  }
+  40% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-5.jpeg");
+  }
+  60% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-6.jpeg");
+  }
+  80% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-7.jpeg");
+  }
+  100% {
+    opacity: 0.9;
+    background-image: url("../../images/gal-2.jpeg");
+  }
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(5px);
+            transform: scale(5px);
+  }
+  50% {
+    -webkit-transform: scale(-5px);
+            transform: scale(-5px);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    -webkit-transform: scale(5px);
+            transform: scale(5px);
+  }
+  50% {
+    -webkit-transform: scale(-5px);
+            transform: scale(-5px);
+  }
+}
+
+.home .slide.s1 {
+  background: url("../../images/gal-3.jpeg") no-repeat center center/cover;
+}
+
+.home .slide.s2 {
+  background: url("../../images/gal-2.jpeg") no-repeat center center/cover;
+}
+
+.home .slide.s3 {
+  background: url("../../images/gal-6.jpeg") no-repeat center center/cover;
+}
+
+.home .slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home .slide .content {
+  margin-top: 20rem;
+  margin-left: 5rem;
+  position: relative;
+}
+
+.home .content h3 {
+  font-size: 1rem;
+  font-family: "Montserrat", Sans-serif;
+  letter-spacing: 5px;
+  color: black;
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.home .content h1 {
+  font-size: 5rem;
+  color: black;
+  padding: 1rem 0;
+}
+
+.home .content h2 {
+  font-size: 5rem;
+  color: white;
+  padding: 1rem 0;
+  font-family: "Rockwell";
+}
+
+@media (max-width: 500px) {
+  .home .slide .content {
+    margin-left: 3rem;
+    position: relative;
+  }
+  .home .content h2 {
+    font-size: 3rem;
+    color: white;
+    /* line-height: 2; */
+    padding: 1rem 0;
+    font-family: "Rockwell";
+  }
+}
+
+.home .content h4 {
+  font-family: "Baloo Bhai";
+  font-size: 2rem;
+  color: white;
+  /* line-height: 2; */
+  padding: 1rem 0;
+  color: #f5bf23;
+}
+
+.about-us {
+  padding: 10rem 20%;
+}
+
+@media (max-width: 700px) {
+  .about-us {
+    padding: 7rem 10%;
+  }
+}
+
+.side-contact {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #eaf2f8;
+  -webkit-box-shadow: 0px 1px 20px 5px #0000009c;
+          box-shadow: 0px 1px 20px 5px #0000009c;
+}
+
+.side-contact .form .form-heading {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: float 2s ease-in-out 2s infinite forwards;
+          animation: float 2s ease-in-out 2s infinite forwards;
+}
+
+.side-contact .form .form-content {
+  padding: 4rem 2rem;
+}
+
+.side-contact .form .form-content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 3rem;
+  color: #1a5276;
+}
+
+.side-contact .form .form-content form .btn {
+  background-color: #3498db;
+  border: none;
+  color: white;
+}
+
+.side-contact .form .form-content form input {
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 1rem;
+}
+
+.side-contact .form .form-content form textarea {
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 1rem;
+}
+/*# sourceMappingURL=home.css.map */

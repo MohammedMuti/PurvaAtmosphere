@@ -1,0 +1,87 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.amenities {
+  background-color: white;
+  padding: 5rem 10%;
+}
+
+.amenities .amenities-list-container {
+  margin-top: 3rem;
+}
+
+.amenities .amenities-list-container .amenities-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 3rem;
+  background-color: #d4e6f1;
+  -webkit-box-shadow: 0px 0px 8px 0px;
+          box-shadow: 0px 0px 8px 0px;
+}
+
+.amenities .amenities-list-container .amenities-container .amenities-list-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.amenities .amenities-list-container .amenities-container .amenities-list-content svg {
+  color: #7c7c7c;
+  font-size: 3rem;
+}
+
+.amenities .amenities-list-container .amenities-container .amenities-list-content img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.amenities .amenities-list-container .amenities-container .amenities-list-content h2 {
+  padding-left: 2rem;
+  color: #7c7c7c;
+}
+
+.amenities .amenities-list-container .amenities-container .amenities-button svg {
+  font-size: 3rem;
+}
+
+.amenities .amenities-list-container .amenities-content-container {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+}
+
+.amenities .amenities-list-container .amenities-content-container .slide {
+  height: 30rem;
+  min-height: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.amenities .amenities-list-container .amenities-content-container .slide .image img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.amenities .amenities-list-container .amenities-content-container.active {
+  height: 30rem;
+  overflow: auto;
+}
+/*# sourceMappingURL=amenities.css.map */

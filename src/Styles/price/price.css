@@ -1,0 +1,70 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.Price-List-container {
+  padding: 5rem 10%;
+  background: #eee;
+}
+
+.Price-List-container .price-heading h1 {
+  font-size: 4rem;
+}
+
+.Price-List-container .Price-Container {
+  padding: 5%;
+}
+
+.Price-List-container .Price-Container .price-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(40rem, 0fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(40rem, 0fr));
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Price-List-container .Price-Container .price-box .price-main-box {
+  background-color: white;
+  text-align: center;
+  padding-top: 3rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #0000001a;
+          box-shadow: 0 0.5rem 1rem #0000001a;
+}
+
+.Price-List-container .Price-Container .price-box .price-main-box img {
+  width: 30rem;
+  height: 25rem;
+  margin-bottom: 4rem;
+}
+
+.Price-List-container .Price-Container .price-box .price-main-box .price-title {
+  margin-bottom: 2rem;
+}
+
+.Price-List-container .Price-Container .price-box .price-main-box p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #565656;
+}
+
+.Price-List-container .Price-Container .price-box .price-main-box button {
+  background-color: black;
+  padding: 1rem 5rem;
+  border: none;
+  margin: 5rem 0rem;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=price.css.map */

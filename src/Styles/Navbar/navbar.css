@@ -1,0 +1,192 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.navbar {
+  position: fixed;
+  width: 75%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height ease-in-out;
+  transition: height ease-in-out;
+}
+
+.navbar .navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 8rem;
+}
+
+.navbar .navbar-container .navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+}
+
+.navbar .navbar-container .navbar-menu h3 {
+  color: #eee;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  font-weight: 400;
+}
+
+.navbar .navbar-container .navbar-menu svg {
+  font-size: 3rem;
+  color: #eee;
+}
+
+.navbar .navbar-container .button {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.navbar .navbar-container .navbar-image img {
+  background-color: #eee;
+  color: #eee;
+  width: 15rem;
+  height: 5rem;
+}
+
+.navbar .navbar-container .navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar .navbar-container ul li {
+  margin-right: 1rem;
+  padding: 1rem;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.navbar .navbar-container ul li a {
+  color: #eee;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 3rem;
+}
+
+.navbar .navbar-container ul li:hover {
+  background-color: white;
+}
+
+.navbar .navbar-container ul li:hover a {
+  color: black;
+}
+
+.navbar .navbar-container ul.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar-container .bars-btn {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navbar .navbar-container .bars-btn {
+    display: block;
+  }
+  .navbar .navbar-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar .navbar-container ul.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+  }
+}
+
+.navbar .navbar-container ul.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar-container ul.active li {
+  margin-right: 1rem;
+  padding: 1rem;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.navbar .navbar-container ul.active li a {
+  color: #d7d7d7;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 3rem;
+}
+
+.navbar .navbar-container ul.active li:hover {
+  background-color: white;
+}
+
+.navbar .navbar-container ul.active li:hover a {
+  color: black;
+}
+
+.navbar.active {
+  height: 8rem;
+  overflow: auto;
+}
+/*# sourceMappingURL=navbar.css.map */

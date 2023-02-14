@@ -1,0 +1,30 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.About-us {
+  padding: 5rem 10%;
+}
+
+.About-us .header h1 {
+  font-size: 4rem;
+}
+
+.About-us .about-us-content {
+  margin-bottom: 2rem;
+}
+
+.About-us p {
+  text-align: justify;
+  margin-top: 2rem;
+  text-justify: inter-word;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #565656;
+}
+/*# sourceMappingURL=about.css.map */

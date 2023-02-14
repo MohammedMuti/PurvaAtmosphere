@@ -1,0 +1,32 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.aminities {
+  padding: 5rem 10%;
+}
+
+.aminities .aminities-list-container {
+  margin-top: 3rem;
+}
+
+.aminities .aminities-list-container .aminities-container {
+  padding: 3rem;
+  background-color: #eee;
+}
+
+.aminities .aminities-list-container .aminities-container .aminities-list-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aminities .aminities-list-container .aminities-container .aminities-list-content img {
+  width: 10rem;
+  height: 10rem;
+}
+/*# sourceMappingURL=aminities.css.map */

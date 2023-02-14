@@ -1,0 +1,87 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.pop-container {
+  width: 43rem;
+  position: fixed;
+  background-color: #7fb3d5;
+  border-radius: 6px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
+  z-index: 20;
+  padding: 1rem 3rem;
+  visibility: hidden;
+  -webkit-transition: top 0.4s, -webkit-transform 0.4s;
+  transition: top 0.4s, -webkit-transform 0.4s;
+  transition: transform 0.4s, top 0.4s;
+  transition: transform 0.4s, top 0.4s, -webkit-transform 0.4s;
+}
+
+.pop-container .pop-main .pop-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.pop-container .pop-main .pop-head h2 {
+  color: #ebf5fb;
+}
+
+.pop-container .pop-main .pop-head svg {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.pop-container .pop-main .pop-body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 3rem;
+  color: #1a5276;
+}
+
+.pop-container .pop-main .pop-body form .btn {
+  background-color: #ebf5fb;
+  border: none;
+  color: #1a5276;
+  font-weight: 600;
+}
+
+.pop-container .pop-main .pop-body form input {
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 1rem;
+}
+
+.pop-container .pop-main .pop-body form textarea {
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 1rem;
+}
+
+.pop-container.active {
+  visibility: visible;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+/*# sourceMappingURL=popup.css.map */

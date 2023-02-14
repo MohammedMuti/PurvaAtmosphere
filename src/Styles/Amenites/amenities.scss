@@ -1,0 +1,61 @@
+@import "../variables/vaiables.scss";
+// #e84c4c
+// #518eff
+.amenities {
+  background-color: white;
+  padding: 5rem 10%;
+  .heading {
+  }
+  .amenities-list-container {
+    margin-top: 3rem;
+    .amenities-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 3rem;
+      background-color: #d4e6f1;
+      box-shadow: 0px 0px 8px 0px;
+      .amenities-list-content {
+        display: flex;
+        align-items: center;
+        svg {
+          color: rgb(124, 124, 124);
+          font-size: 3rem;
+        }
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+        h2 {
+          padding-left: 2rem;
+          color: rgb(124, 124, 124);
+        }
+      }
+      .amenities-button {
+        svg {
+          font-size: 3rem;
+        }
+      }
+    }
+    .amenities-content-container {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.5s ease;
+      .slide {
+        height: 30rem;
+        min-height: 0;
+        justify-content: center;
+        .image {
+          img {
+            width: 20rem;
+            height: 20rem;
+          }
+        }
+      }
+    }
+    .amenities-content-container.active {
+      height: 30rem;
+      overflow: auto;
+    }
+  }
+}

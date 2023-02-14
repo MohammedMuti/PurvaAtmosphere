@@ -1,0 +1,20 @@
+$nav-bg: rgba(0, 0, 0, 0.5);
+$dgray: rgb(86, 86, 86);
+$paracolor: rgb(86, 86, 86);
+
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+@mixin pad20 {
+  padding: 10rem 20%;
+}
+
+@mixin pad10 {
+  padding: 7rem 10%;
+}
