@@ -6,12 +6,13 @@ form {
   font-size: 3rem;
   color: #1a5276;
   .btn {
+    margin-top: 2rem;
     background-color: #3498db;
     border: none;
     color: white;
   }
   input {
-    margin-bottom: 2rem;
+    margin: 1rem 0rem;
     outline: none;
     padding: 1rem;
   }
@@ -19,5 +20,8 @@ form {
     margin-bottom: 2rem;
     outline: none;
     padding: 1rem;
+  }
+  .errorMessage {
+    color: red;
   }
 }

@@ -19,7 +19,7 @@ const ContactUs = () => {
                 height="450"
                 style={{ border: 0 }}
                 allowFullScreen=""
-                loading="lazy"
+                loading={"lazy"}
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>

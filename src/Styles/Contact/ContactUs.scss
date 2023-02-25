@@ -1,7 +1,7 @@
 @import "../variables/vaiables.scss";
 
 .Contact-us {
-  padding: 5rem 2rem;
+  padding: 5rem 5rem;
   background-color: #1f618d;
   .header {
     margin-bottom: 2rem;
@@ -31,19 +31,25 @@
       .location-map {
         iframe {
           width: 100%;
-          height: 45rem;
+          height: 53rem;
         }
       }
     }
     .contactForm {
       width: 100%;
       flex: 40rem;
-      height: 45rem;
+      height: 53rem;
       align-items: center;
       background-color: white;
       padding-top: 2rem;
       form {
         padding: 0rem 3rem;
+
+        @media (max-width: 410px) {
+          .captcha {
+            transform: scale(0.7);
+          }
+        }
       }
       input,
       textarea {

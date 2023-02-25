@@ -284,7 +284,7 @@ h1 {
 }
 
 .side-contact .form .form-heading {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,7 +299,7 @@ h1 {
 }
 
 .side-contact .form .form-content {
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .side-contact .form .form-content form {
@@ -321,13 +321,13 @@ h1 {
 }
 
 .side-contact .form .form-content form input {
-  margin-bottom: 2rem;
+  margin: 1rem 0rem;
   outline: none;
   padding: 1rem;
 }
 
 .side-contact .form .form-content form textarea {
-  margin-bottom: 2rem;
+  margin: 1rem 0rem;
   outline: none;
   padding: 1rem;
 }
@@ -371,7 +371,7 @@ h1 {
 
 .disclaimer p {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 2rem;
 }
