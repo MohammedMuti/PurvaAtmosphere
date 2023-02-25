@@ -1,21 +1,11 @@
-import {
-  faBaseballBatBall,
-  faDumbbell,
-  faHouse,
-  faParking,
-  faPlayCircle,
-  faSwimmingPool,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../../Styles/Amenites/amenities.css";
-import AmenityCom from "./amenityComponent";
 
 const Amenities = () => {
   return (
     <React.Fragment>
       <div className="amenities">
-        <div className="heading">
+        <div className="header">
           <h1>Amenities</h1>
         </div>
         <div className="amenity-main">

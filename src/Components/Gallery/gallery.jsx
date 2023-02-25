@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <React.Fragment>
       <div className="gallery">
-        <div className="heading">
+        <div className="header">
           <h1>Gallery</h1>
         </div>
         <div className="gallery-content">

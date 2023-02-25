@@ -1,0 +1,54 @@
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #1f618d;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 0.5rem;
+  right: 5px;
+  background-color: #1f618d;
+  border-radius: 1rem;
+}
+
+.tour {
+  padding: 5rem 2rem;
+}
+
+.tour .header {
+  margin-bottom: 3rem;
+}
+
+.tour .tour-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tour .tour-content .tour-container {
+  width: 60%;
+}
+
+.tour .tour-content .tour-container iframe {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .tour .tour-content .tour-container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=virtualTour.css.map */

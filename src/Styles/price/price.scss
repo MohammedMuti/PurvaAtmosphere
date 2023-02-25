@@ -8,11 +8,19 @@
     padding: 5rem 3%;
   }
 
-  .price-heading {
+  .header {
+    margin-bottom: 2rem;
     h1 {
       font-size: 4rem;
       color: white;
-      margin-bottom: 2rem;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 10rem;
+      height: 0.5rem;
+      background-color: white;
+      border-radius: 1rem;
     }
   }
   .Price-Container {

@@ -18,10 +18,22 @@ h1 {
   }
 }
 
-.Price-List-container .price-heading h1 {
+.Price-List-container .header {
+  margin-bottom: 2rem;
+}
+
+.Price-List-container .header h1 {
   font-size: 4rem;
   color: white;
-  margin-bottom: 2rem;
+}
+
+.Price-List-container .header::after {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .Price-List-container .Price-Container {

@@ -14,6 +14,7 @@ import ContactComp from "./Common/Contact/ContactComp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Gallery from "./Gallery/gallery";
 import ContactUs from "./Contact/ContactUs";
+import Tour from "./Tour/virtualTour";
 
 const Home = () => {
   const [popup, setPopup] = useState(false);
@@ -110,7 +111,20 @@ const Home = () => {
           <Prices />
           <Aminities />
           <Gallery />
+          <Tour />
           <ContactUs />
+          <div className="disclaimer">
+            <p>
+              Disclaimer : The content is for information purposes only and does
+              not constitute an offer to avail of any service. Prices mentioned
+              are subject to change without notice and properties mentioned are
+              subject to availability. Images for representation purposes only.
+              This is the official website of authorized marketing partner. We
+              may share data with rera registered brokers/companies for further
+              processing. We may also send updates to the mobile number/email id
+              registered with us. All Rights Reserved.
+            </p>
+          </div>
           <div className="floating-icons">
             <div className="whatsapp-float-icon">
               <i className="fa-brands fa-whatsapp"></i>

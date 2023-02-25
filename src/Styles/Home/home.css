@@ -364,4 +364,15 @@ h1 {
     right: 2%;
   }
 }
+
+.disclaimer {
+  background: #000;
+}
+
+.disclaimer p {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2rem;
+}
 /*# sourceMappingURL=home.css.map */

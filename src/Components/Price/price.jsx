@@ -5,7 +5,7 @@ const Prices = () => {
   return (
     <React.Fragment>
       <div className="Price-List-container">
-        <div className="price-heading">
+        <div className="header">
           <h1>Our Prices</h1>
         </div>
         <div className="Price-Container">

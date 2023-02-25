@@ -9,11 +9,24 @@ h1 {
 
 .Contact-us {
   padding: 5rem 2rem;
-  background-color: #badcf3;
+  background-color: #1f618d;
+}
+
+.Contact-us .header {
+  margin-bottom: 2rem;
 }
 
 .Contact-us .header h1 {
-  margin-bottom: 2rem;
+  color: white;
+}
+
+.Contact-us .header::after {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .Contact-us .contact-content {
