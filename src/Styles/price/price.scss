@@ -1,46 +1,56 @@
 @import "../variables/vaiables.scss";
 
 .Price-List-container {
-  padding: 5rem 10%;
-  background: #eee;
+  padding: 5rem 2rem;
+  background: #1f618d;
+
+  @media (max-width: 500px) {
+    padding: 5rem 3%;
+  }
 
   .price-heading {
     h1 {
       font-size: 4rem;
+      color: white;
     }
   }
   .Price-Container {
-    padding: 5%;
+    padding: 2rem 0rem;
     .price-box {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(40rem, 0fr));
-      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 0fr));
+      gap: 3rem;
       align-items: center;
       justify-content: center;
+      padding: 0 5rem;
       .price-main-box {
-        background-color: white;
+        background: white;
+        border: 1px solid white;
         text-align: center;
+        padding: 1rem 0rem;
         padding-top: 3rem;
-        box-shadow: 0 0.5rem 1rem #0000001a;
+        border-radius: 1rem;
         // padding: 5rem;
         img {
-          width: 30rem;
-          height: 25rem;
-          margin-bottom: 4rem;
+          width: 20rem;
+          height: 15rem;
+          margin-bottom: 6rem;
         }
         .price-title {
           margin-bottom: 2rem;
+          color: $dgray;
+          text-shadow: 2px 2px 0px #3194d6;
         }
         p {
           font-size: 2rem;
           margin-bottom: 1rem;
-          color: $paracolor;
+          color: $dgray;
         }
         button {
           background-color: black;
           padding: 1rem 5rem;
           border: none;
-          margin: 5rem 0rem;
+          margin: 1rem 0rem;
           cursor: pointer;
           color: white;
           font-size: 2rem;

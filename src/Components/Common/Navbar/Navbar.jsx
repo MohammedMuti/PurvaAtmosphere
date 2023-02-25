@@ -1,4 +1,4 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { useEffect } from "react";
@@ -81,6 +81,7 @@ const Navbar = () => {
             </button>
           </div> */}
           <div className="button">
+            <FontAwesomeIcon icon={faPhone} />
             <button>Call-now</button>
           </div>
         </div>

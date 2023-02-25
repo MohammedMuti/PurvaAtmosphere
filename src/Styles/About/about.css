@@ -7,24 +7,106 @@ h1 {
   color: #1f618d;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .About-us {
-  padding: 5rem 10%;
+  padding: 5rem 2rem;
 }
 
-.About-us .header h1 {
-  font-size: 4rem;
+.About-us .header {
+  margin-bottom: 3rem;
 }
 
-.About-us .about-us-content {
+.About-us .about-main-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.About-us .about-main-content .about-us-para {
+  border: 1px solid #8080805c;
+  height: 25rem;
+  padding: 2rem;
+}
+
+.About-us .about-main-content .about-us-para h2 {
+  margin-bottom: 1rem;
+}
+
+.About-us .about-main-content .about-us-para .about-us-content {
+  height: 15rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.About-us .about-main-content .about-us-para .about-us-content p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.About-us .about-main-content .about-us-resources {
+  height: 25rem;
+  padding: 1rem;
+  border: 1px solid #8080805c;
+}
+
+.About-us .about-main-content .about-us-resources .about-resource-head {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
-.About-us p {
-  text-align: justify;
-  margin-top: 2rem;
-  text-justify: inter-word;
-  font-size: 2rem;
-  line-height: 3rem;
-  color: #565656;
+.About-us .about-main-content .about-us-resources .about-resource-head p {
+  font-size: 2.5rem;
+}
+
+.About-us .about-main-content .about-us-resources .resource-container {
+  margin-top: 4rem;
+}
+
+.About-us .about-main-content .about-us-resources .resource-container .main-resources {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(8rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+}
+
+.About-us .about-main-content .about-us-resources .resource-container .main-resources img {
+  width: 11rem;
+  padding: 1rem;
+}
+
+.About-us .about-main-content .about-us-resources .resource-container .main-resources p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .About-us .about-main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About-us .about-main-content .about-us-content {
+    margin-bottom: 2rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

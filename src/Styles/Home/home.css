@@ -331,4 +331,45 @@ h1 {
   outline: none;
   padding: 1rem;
 }
+
+.floating-icons .whatsapp-float-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 80%;
+  right: 2rem;
+  z-index: 20;
+}
+
+.floating-icons .whatsapp-float-icon p {
+  font-size: 2rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 25px 0px gray;
+          box-shadow: 0px 0px 25px 0px gray;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-right: 2rem;
+  color: #4dc247;
+  border: 1px solid #dedede;
+}
+
+.floating-icons .whatsapp-float-icon div {
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
+}
+
+.floating-icons .whatsapp-float-icon i {
+  font-size: 5rem;
+  background-color: #4dc247;
+  padding: 1.2rem 1.4rem;
+  color: white;
+  border-radius: 6rem;
+}
 /*# sourceMappingURL=home.css.map */

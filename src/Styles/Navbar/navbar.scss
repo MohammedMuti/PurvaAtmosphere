@@ -2,7 +2,7 @@
 
 .navbar {
   position: fixed;
-  width: 75%;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: $nav-bg;
@@ -29,13 +29,32 @@
         font-weight: 400;
       }
       svg {
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: #eee;
       }
     }
     .button {
       font-size: 3rem;
       margin-right: 1rem;
+      button {
+        // display: none;
+      }
+      svg {
+        display: none;
+        font-size: 3.5rem;
+        background-color: #3194d6;
+        color: #eee;
+        padding: 1rem;
+        border-radius: 5px;
+      }
+      @media (max-width: 500px) {
+        button {
+          display: none;
+        }
+        svg {
+          display: block;
+        }
+      }
     }
     .navbar-image {
       img {

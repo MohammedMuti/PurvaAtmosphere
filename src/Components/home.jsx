@@ -11,14 +11,16 @@ import Aminities from "./Amenities/amenities";
 import { useEffect } from "react";
 import PopUp from "./popup/popup";
 import ContactComp from "./Common/Contact/ContactComp";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Gallery from "./Gallery/gallery";
 
 const Home = () => {
   const [popup, setPopup] = useState(false);
 
-  useEffect(() => {
-    const interval = setInterval(() => setPopup(true), 15000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => setPopup(true), 15000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <React.Fragment>
@@ -26,26 +28,16 @@ const Home = () => {
         <div className="home">
           <Navbar />
           <PopUp popup={popup} setPopup={setPopup} />
-          {/* <div className="background">
-            <div className="content">
-              <h3>Welcome to our Apartments</h3>
-              <h1>Purva Atmosphere</h1>
-              <h2>Thanisandra, Bangalore</h2>
-              <h4>
-                Trusted | 30 Years of Experience | On-Time Delivery
-              </h4>
-            </div>
-          </div> */}
           <Swiper
-            loop={true}
-            speed={2000}
-            grabCursor={true}
-            spaceBetween={20}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay, Pagination, Navigation]}
+          // loop={true}
+          // speed={2000}
+          // grabCursor={true}
+          // spaceBetween={20}
+          // autoplay={{
+          //   delay: 3000,
+          //   disableOnInteraction: false,
+          // }}
+          // modules={[Autoplay, Pagination, Navigation]}
           >
             <div className="swiper-wrapper">
               <SwiperSlide>
@@ -69,7 +61,7 @@ const Home = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="swiper-slide slide s2">
                   <div className="background-overlay">
                     <div className="content">
@@ -78,13 +70,13 @@ const Home = () => {
                       <h2>Thanisandra, Bangalore</h2>
                       <h4>
                         Trusted | 30 Years of Experience | On-Time Delivery
-                        {/* <Typewriter 
+                        <Typewriter 
                                             loop={true}
                                             speed={40}
                                             text='Trusted | 30 Years of Experience | On-Time Delivery'
                                             delay={1000}
                                             random={100}
-                                            /> */}
+                                            />
                       </h4>
                     </div>
                   </div>
@@ -99,23 +91,31 @@ const Home = () => {
                       <h2>Thanisandra, Bangalore</h2>
                       <h4>
                         Trusted | 30 Years of Experience | On-Time Delivery
-                        {/* <Typewriter 
+                        <Typewriter 
                                             loop={true}
                                             speed={40}
                                             text='Trusted | 30 Years of Experience | On-Time Delivery'
                                             delay={1000}
                                             random={100}
-                                            /> */}
+                                            />
                       </h4>
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </div>
           </Swiper>
           <About />
           <Prices />
           <Aminities />
+          <Gallery />
+          <div className="floating-icons">
+            <div className="whatsapp-float-icon">
+              <p>Message Us</p>
+              <div></div>
+              <i className="fa-brands fa-whatsapp"></i>
+            </div>
+          </div>
         </div>
         <div className="side-contact">
           <div className="form">
