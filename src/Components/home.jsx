@@ -13,6 +13,7 @@ import PopUp from "./popup/popup";
 import ContactComp from "./Common/Contact/ContactComp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Gallery from "./Gallery/gallery";
+import ContactUs from "./Contact/ContactUs";
 
 const Home = () => {
   const [popup, setPopup] = useState(false);
@@ -109,10 +110,9 @@ const Home = () => {
           <Prices />
           <Aminities />
           <Gallery />
+          <ContactUs />
           <div className="floating-icons">
             <div className="whatsapp-float-icon">
-              <p>Message Us</p>
-              <div></div>
               <i className="fa-brands fa-whatsapp"></i>
             </div>
           </div>

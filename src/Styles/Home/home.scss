@@ -247,31 +247,22 @@
     display: flex;
     align-items: center;
     position: fixed;
-    top: 80%;
-    right: 2rem;
-    z-index: 20;
-    p {
-      font-size: 2rem;
-      background-color: white;
-      box-shadow: 0px 0px 25px 0px gray;
-      border-radius: 5px;
-      padding: 1rem;
-      padding-right: 2rem;
-      color: $whatsapp;
-      border: 1px solid rgb(222, 222, 222);
-    }
-    div {
-      width: 2rem;
-      height: 2rem;
-      background: white;
-      transform: translateX(-50%) rotate(45deg);
-    }
+    bottom: 3rem;
+    right: 27%;
+    z-index: 200;
     i {
-      font-size: 5rem;
+      font-size: 4.5rem;
       background-color: $whatsapp;
-      padding: 1.2rem 1.4rem;
+      padding: 1rem;
       color: white;
-      border-radius: 6rem;
+      border-radius: 0.8rem;
+    }
+
+    @media (max-width: 1200px) {
+      right: 32%;
+    }
+    @media (max-width: 1000px) {
+      right: 2%;
     }
   }
 }

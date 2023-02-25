@@ -33,6 +33,12 @@ const Prices = () => {
             </div>
           </div>
         </div>
+        <div className="master-plan">
+          <div className="master-plan-container">
+            <img src={require("../../images/masterplan.webp")} alt="" />
+            <p>Master Plan</p>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

@@ -8,12 +8,13 @@ h1 {
 }
 
 .amenities {
-  background-color: #eee;
+  background-color: white;
   padding: 5rem 2rem;
 }
 
 .amenities .heading {
   margin-bottom: 3rem;
+  margin-left: 2rem;
 }
 
 .amenities .amenity-main .amenity-container {
