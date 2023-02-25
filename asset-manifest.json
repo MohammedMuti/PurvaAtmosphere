@@ -1,21 +1,37 @@
 {
   "files": {
-    "main.css": "/PurvaAtmosphere/static/css/main.ede78222.css",
-    "main.js": "/PurvaAtmosphere/static/js/main.8aa0b3d0.js",
+    "main.css": "/PurvaAtmosphere/static/css/main.50da00f0.css",
+    "main.js": "/PurvaAtmosphere/static/js/main.0a0f0319.js",
     "static/media/gal-7.jpeg": "/PurvaAtmosphere/static/media/gal-7.2877d927d93d8f3a6c02.jpeg",
     "static/media/gal-6.jpeg": "/PurvaAtmosphere/static/media/gal-6.2dc112ff983c56c08004.jpeg",
     "static/media/gal-5.jpeg": "/PurvaAtmosphere/static/media/gal-5.090f334a75f522726705.jpeg",
     "static/media/gal-3.jpeg": "/PurvaAtmosphere/static/media/gal-3.d8c5c535664a68aa1eff.jpeg",
     "static/media/gal-2.jpeg": "/PurvaAtmosphere/static/media/gal-2.d1783128a2aea98c08a6.jpeg",
+    "static/media/Landscape Garden.png": "/PurvaAtmosphere/static/media/Landscape Garden.f7422bc9723e2fcc76d8.png",
+    "static/media/4bhk.webp": "/PurvaAtmosphere/static/media/4bhk.f6476a2e08be8bf21013.webp",
+    "static/media/3bhk.webp": "/PurvaAtmosphere/static/media/3bhk.9803c846ce17e9882061.webp",
+    "static/media/Kids Play Area.png": "/PurvaAtmosphere/static/media/Kids Play Area.6ac3019794bff3d5c84e.png",
     "static/media/2bhk.webp": "/PurvaAtmosphere/static/media/2bhk.7330b635d5dd1a173699.webp",
+    "static/media/Mini Theatre.png": "/PurvaAtmosphere/static/media/Mini Theatre.2e341092988138bb761b.png",
+    "static/media/Basket Ball court.png": "/PurvaAtmosphere/static/media/Basket Ball court.01d04a9e18b96302b920.png",
+    "static/media/Swimming Pool.png": "/PurvaAtmosphere/static/media/Swimming Pool.f7df59f23a14655adbb9.png",
+    "static/media/Car Parking.png": "/PurvaAtmosphere/static/media/Car Parking.435e544a634996e42182.png",
+    "static/media/Gym.png": "/PurvaAtmosphere/static/media/Gym.28508e5a2f72be95b0b2.png",
+    "static/media/gal-4.jpeg": "/PurvaAtmosphere/static/media/gal-4.a48104f70351b1b48534.jpeg",
+    "static/media/Club House.png": "/PurvaAtmosphere/static/media/Club House.009e8ae7daa89c07e3a3.png",
+    "static/media/Power Backup.png": "/PurvaAtmosphere/static/media/Power Backup.3ff2f512944ff0541841.png",
     "static/media/gal-1.jpeg": "/PurvaAtmosphere/static/media/gal-1.dbe0ecba2f0c9e4c67bb.jpeg",
     "static/media/Purvankara1.svg": "/PurvaAtmosphere/static/media/Purvankara1.dd7ca98e9b9138b9f1d5b7170d67aa41.svg",
+    "static/media/Virtual-Tour.svg": "/PurvaAtmosphere/static/media/Virtual-Tour.aee0474ae492bf5ba937705b4acce7f6.svg",
+    "static/media/Master-Plan.svg": "/PurvaAtmosphere/static/media/Master-Plan.83912e466860d49b1a85f347d1228a1d.svg",
+    "static/media/Floor-Plan.svg": "/PurvaAtmosphere/static/media/Floor-Plan.a455347da2bd1a95f9bb4b9fcfd377e3.svg",
+    "static/media/Icons_brochure.svg": "/PurvaAtmosphere/static/media/Icons_brochure.d6f9614798fd6e5c37003718b2a945a8.svg",
     "index.html": "/PurvaAtmosphere/index.html",
-    "main.ede78222.css.map": "/PurvaAtmosphere/static/css/main.ede78222.css.map",
-    "main.8aa0b3d0.js.map": "/PurvaAtmosphere/static/js/main.8aa0b3d0.js.map"
+    "main.50da00f0.css.map": "/PurvaAtmosphere/static/css/main.50da00f0.css.map",
+    "main.0a0f0319.js.map": "/PurvaAtmosphere/static/js/main.0a0f0319.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede78222.css",
-    "static/js/main.8aa0b3d0.js"
+    "static/css/main.50da00f0.css",
+    "static/js/main.0a0f0319.js"
   ]
 }
