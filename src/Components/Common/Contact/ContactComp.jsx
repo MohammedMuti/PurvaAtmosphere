@@ -37,7 +37,7 @@ const ContactComp = (props) => {
 
     if (validation === true) {
       const responsetoself = await axios(
-        "https://https://purvankara-nodemailer-web.onrender.com/sendToUser",
+        "https://purvankara-nodemailer-web.onrender.com/sendToUser",
         {
           method: "POST",
           headers: {
@@ -54,7 +54,7 @@ const ContactComp = (props) => {
         });
 
       const responseToMuti = await axios(
-        "https://https://purvankara-nodemailer-web.onrender.com/sendToMuti",
+        "https://purvankara-nodemailer-web.onrender.com/sendToMuti",
         {
           method: "POST",
           headers: {
@@ -76,7 +76,7 @@ const ContactComp = (props) => {
         });
 
       const responseToAbuzar = await axios(
-        "https://https://purvankara-nodemailer-web.onrender.com/sendToAbuzar",
+        "https://purvankara-nodemailer-web.onrender.com/sendToAbuzar",
         {
           method: "POST",
           headers: {
