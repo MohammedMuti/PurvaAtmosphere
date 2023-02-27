@@ -1,5 +1,18 @@
 @import "../variables/vaiables.scss";
 
+p {
+  font-family: "Labrada", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -142,7 +155,7 @@
 }
 
 .home .content h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: "Montserrat", Sans-serif;
   letter-spacing: 5px;
   color: black;
@@ -153,12 +166,14 @@
 .home .content h1 {
   font-size: 5rem;
   color: black;
+  text-shadow: 4px 3px 0px #1f618d;
   padding: 1rem 0;
 }
 
 .home .content h2 {
   font-size: 5rem;
   color: white;
+  text-shadow: 4px 3px 0px #1f618d;
   padding: 1rem 0;
   font-family: "Rockwell";
 }
@@ -171,7 +186,6 @@
 
   .home .content h2 {
     font-size: 3rem;
-    color: white;
     /* line-height: 2; */
     padding: 1rem 0;
     font-family: "Rockwell";
@@ -243,8 +257,10 @@
 
 // ------ Fixed Icons ------
 .floating-icons {
-  .whatsapp-float-icon {
+  .float-icon {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     bottom: 3rem;
@@ -255,7 +271,15 @@
       background-color: $whatsapp;
       padding: 1rem;
       color: white;
+      margin-bottom: 2rem;
       border-radius: 0.8rem;
+    }
+    svg {
+      font-size: 3.5rem;
+      background-color: #3194d6;
+      color: #eee;
+      padding: 1rem;
+      border-radius: 5px;
     }
 
     @media (max-width: 1200px) {

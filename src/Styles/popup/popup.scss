@@ -12,10 +12,13 @@
   padding: 1rem 3rem;
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
+  @media (max-width: 450px) {
+    width: 39rem;
+  }
   .pop-main {
     .pop-head {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: space-between;
       margin-bottom: 4rem;
       h2 {

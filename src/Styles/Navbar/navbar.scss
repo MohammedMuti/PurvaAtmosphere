@@ -29,6 +29,7 @@
         font-weight: 400;
       }
       svg {
+        display: none;
         font-size: 3.5rem;
         color: #eee;
       }
@@ -37,7 +38,11 @@
       font-size: 3rem;
       margin-right: 1rem;
       button {
-        // display: none;
+        background-color: #3194d6;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-weight: 500;
       }
       svg {
         display: none;
@@ -57,6 +62,7 @@
       }
     }
     .navbar-image {
+      transform: translateX(18px);
       img {
         background-color: #eee;
         color: #eee;

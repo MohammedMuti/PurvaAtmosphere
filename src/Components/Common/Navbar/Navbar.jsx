@@ -82,7 +82,7 @@ const Navbar = () => {
           </div> */}
           <div className="button">
             <FontAwesomeIcon icon={faPhone} />
-            <button>Call-now</button>
+            <button>Call-Now</button>
           </div>
         </div>
       </div>

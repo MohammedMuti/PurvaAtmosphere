@@ -58,6 +58,7 @@ h1 {
 }
 
 .navbar .navbar-container .navbar-menu svg {
+  display: none;
   font-size: 3.5rem;
   color: #eee;
 }
@@ -65,6 +66,14 @@ h1 {
 .navbar .navbar-container .button {
   font-size: 3rem;
   margin-right: 1rem;
+}
+
+.navbar .navbar-container .button button {
+  background-color: #3194d6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
 }
 
 .navbar .navbar-container .button svg {
@@ -83,6 +92,11 @@ h1 {
   .navbar .navbar-container .button svg {
     display: block;
   }
+}
+
+.navbar .navbar-container .navbar-image {
+  -webkit-transform: translateX(18px);
+          transform: translateX(18px);
 }
 
 .navbar .navbar-container .navbar-image img {

@@ -15,14 +15,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Gallery from "./Gallery/gallery";
 import ContactUs from "./Contact/ContactUs";
 import Tour from "./Tour/virtualTour";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   const [popup, setPopup] = useState(false);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => setPopup(true), 15000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => setPopup(true), 10000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <React.Fragment>
@@ -50,7 +51,7 @@ const Home = () => {
                       <h1>Purva Atmosphere</h1>
                       <h2>Thanisandra, Bangalore</h2>
                       <h4>
-                        Trusted | 30 Years of Experience | On-Time Delivery
+                        1.30 Cr* Onwards | 1299 Sq.ft. | 2, 3 & 4 BHK
                         {/* <Typewriter 
                                             loop={true}
                                             speed={40}
@@ -126,8 +127,10 @@ const Home = () => {
             </p>
           </div>
           <div className="floating-icons">
-            <div className="whatsapp-float-icon">
-              <i className="fa-brands fa-whatsapp"></i>
+            <div className="float-icon">
+              <i id="WA-id" className="fa-brands fa-whatsapp"></i>
+
+              <FontAwesomeIcon id="PH-id" icon={faPhone} />
             </div>
           </div>
         </div>
