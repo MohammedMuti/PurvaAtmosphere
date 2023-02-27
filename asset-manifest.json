@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PurvaAtmosphere/static/css/main.000b8dce.css",
+    "main.css": "/PurvaAtmosphere/static/css/main.c90a8542.css",
     "main.js": "/PurvaAtmosphere/static/js/main.57196d81.js",
     "static/media/gal-7.jpeg": "/PurvaAtmosphere/static/media/gal-7.2877d927d93d8f3a6c02.jpeg",
     "static/media/gal-6.jpeg": "/PurvaAtmosphere/static/media/gal-6.2dc112ff983c56c08004.jpeg",
@@ -28,11 +28,11 @@
     "static/media/Floor-Plan.svg": "/PurvaAtmosphere/static/media/Floor-Plan.a455347da2bd1a95f9bb4b9fcfd377e3.svg",
     "index.html": "/PurvaAtmosphere/index.html",
     "static/media/Icons_brochure.svg": "/PurvaAtmosphere/static/media/Icons_brochure.d6f9614798fd6e5c37003718b2a945a8.svg",
-    "main.000b8dce.css.map": "/PurvaAtmosphere/static/css/main.000b8dce.css.map",
+    "main.c90a8542.css.map": "/PurvaAtmosphere/static/css/main.c90a8542.css.map",
     "main.57196d81.js.map": "/PurvaAtmosphere/static/js/main.57196d81.js.map"
   },
   "entrypoints": [
-    "static/css/main.000b8dce.css",
+    "static/css/main.c90a8542.css",
     "static/js/main.57196d81.js"
   ]
 }
