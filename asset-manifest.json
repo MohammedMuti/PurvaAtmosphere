@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PurvaAtmosphere/static/css/main.06d60e56.css",
-    "main.js": "/PurvaAtmosphere/static/js/main.85baa15a.js",
+    "main.css": "/PurvaAtmosphere/static/css/main.000b8dce.css",
+    "main.js": "/PurvaAtmosphere/static/js/main.57196d81.js",
     "static/media/gal-7.jpeg": "/PurvaAtmosphere/static/media/gal-7.2877d927d93d8f3a6c02.jpeg",
     "static/media/gal-6.jpeg": "/PurvaAtmosphere/static/media/gal-6.2dc112ff983c56c08004.jpeg",
     "static/media/gal-5.jpeg": "/PurvaAtmosphere/static/media/gal-5.090f334a75f522726705.jpeg",
@@ -26,13 +26,13 @@
     "static/media/Virtual-Tour.svg": "/PurvaAtmosphere/static/media/Virtual-Tour.aee0474ae492bf5ba937705b4acce7f6.svg",
     "static/media/Master-Plan.svg": "/PurvaAtmosphere/static/media/Master-Plan.83912e466860d49b1a85f347d1228a1d.svg",
     "static/media/Floor-Plan.svg": "/PurvaAtmosphere/static/media/Floor-Plan.a455347da2bd1a95f9bb4b9fcfd377e3.svg",
-    "static/media/Icons_brochure.svg": "/PurvaAtmosphere/static/media/Icons_brochure.d6f9614798fd6e5c37003718b2a945a8.svg",
     "index.html": "/PurvaAtmosphere/index.html",
-    "main.06d60e56.css.map": "/PurvaAtmosphere/static/css/main.06d60e56.css.map",
-    "main.85baa15a.js.map": "/PurvaAtmosphere/static/js/main.85baa15a.js.map"
+    "static/media/Icons_brochure.svg": "/PurvaAtmosphere/static/media/Icons_brochure.d6f9614798fd6e5c37003718b2a945a8.svg",
+    "main.000b8dce.css.map": "/PurvaAtmosphere/static/css/main.000b8dce.css.map",
+    "main.57196d81.js.map": "/PurvaAtmosphere/static/js/main.57196d81.js.map"
   },
   "entrypoints": [
-    "static/css/main.06d60e56.css",
-    "static/js/main.85baa15a.js"
+    "static/css/main.000b8dce.css",
+    "static/js/main.57196d81.js"
   ]
 }
