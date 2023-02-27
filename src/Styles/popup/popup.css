@@ -78,6 +78,10 @@ h1 {
   padding: 1rem;
 }
 
+.pop-container .pop-main .pop-body form .captcha {
+  display: none;
+}
+
 .pop-container .pop-main .pop-body form textarea {
   margin-bottom: 2rem;
   outline: none;
