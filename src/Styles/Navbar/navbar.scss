@@ -38,6 +38,7 @@
       font-size: 3rem;
       margin-right: 1rem;
       button {
+        display: none;
         background-color: #3194d6;
         color: white;
         border: none;
@@ -57,12 +58,12 @@
           display: none;
         }
         svg {
-          display: block;
+          display: none;
         }
       }
     }
     .navbar-image {
-      transform: translateX(18px);
+      // transform: translateX(18px);
       img {
         background-color: #eee;
         color: #eee;

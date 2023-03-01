@@ -69,6 +69,7 @@ h1 {
 }
 
 .navbar .navbar-container .button button {
+  display: none;
   background-color: #3194d6;
   color: white;
   border: none;
@@ -90,13 +91,8 @@ h1 {
     display: none;
   }
   .navbar .navbar-container .button svg {
-    display: block;
+    display: none;
   }
-}
-
-.navbar .navbar-container .navbar-image {
-  -webkit-transform: translateX(18px);
-          transform: translateX(18px);
 }
 
 .navbar .navbar-container .navbar-image img {
